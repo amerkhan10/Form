@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        div{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .akak{
+            padding-left: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        
+    </style>
+</head>
+<body style="background-color: rgba(4, 165, 165, 0.26);">
+    <strong> <h2 style="background-color: blue; padding: 4px;">Personal detail</h2></strong> 
+    
+
+
+    <label class="akak" for="Name">Name*:</label>
+<div>
+
+    <input  type="text" id ="Name"name="Name" required> <br><br> 
+</div>
+
+<label class="akak" for="Name of ">Name of <br>(father guardian):</label>
+<div>
+<input type="text" id="Name of father (guardian)" required> <br><br> 
+</div>
+<label class="akak" for="date of birth">Date of birth*: (dd-mm-yy)</label>
+<div>
+<input type="text" id="date of birth"> <br><br> 
+</div>
+<label class="akak" for="Gender">Gender*:</label>
+<div>
+<input type="radio" name="Gender" value="Male">Male
+<input type="radio" name="Gender" value="Female">Female <br><br>
+</div>
+<label class="akak" for="account type">Account Type*:</label>
+<div>
+<input type="radio" name="select" value="Saving">Saving
+<input type="radio" name="select" value="Fixed">Fixed <br><br>
+</div>
+<label class="akak" for="radio">Preferences:</label>
+<div>
+<input type="checkbox" name="Gender" value="Internet banking">Internet banking
+<input type="checkbox" name="Gender" value="Mobile banking">Mobile banking
+<input type="checkbox" name="Gender" value="SMS alert">SMS alerts <br><br>
+</div>
+<label class="akak" for="Address">Address:</label>
+<div>
+<textarea name="Address" id="Address" cols="35" rows="3"></textarea><br><br>
+</div>
+
+<label class="akak" for="Country">Country:</label>
+<div>
+<select name="country" id="country">
+        <option value="Pakistan">Pakistan</option>
+        <option value="India">India</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Russia">Russia</option>
+        <option value="USA">USA</option>
+        <option value="China">China</option></select>
+</div>
+        <br> <br>
+<label class="akak" for="zipcode">Zip Code*:</label>
+<div>
+<input type="text"> <br><br>
+</div>
+<label class="akak" for="Phone">Phone*:</label>
+<div>
+<input type="number"> <br><br> 
+</div>
+<label class="akak" for="email">Email*:</label>
+<div>
+<input type="email"> 
+</div>
+<br> <br>
+<label class="akak" for="Password">Password*:</label>
+<div>
+<input type="password"><br><br>
+</div>
+<label class="akak" for="verify password">Verify Password*:</label>
+<div>
+<input type="password"> <br></BR>
+</div>
+<div >
+<button style="width: 60px; height: 30px;background-color: rgba(0, 255, 255, 0.397); color: brown;font-weight: 600; " class="center-button">Send</button>
+<button style="width: 60px; height: 30px; background-color: rgba(0, 255, 255, 0.356);color: brown; font-weight: 600;" class="center-button">Clear</button> <br><br>
+</div>
+
+    
+</body>
+</html>
